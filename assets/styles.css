@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+body {
+  background-color: #f2f2f2;
+  margin: 0px;
+  font-family:'Nunito', sans-serif;
+  color: #2B2B2B;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url("./background.jpg");
+  background-size: cover;
+}
+
+.header {
+  background-color: #ff5349;
+  height: 85px;
+  margin-bottom: 25px;
+  margin: 0;
+}
+
+.logo {
+  padding:5px;
+  text-align:center;
+  margin:auto;
+  display:flex;
+  width: auto;
+  height : 80%;
+}
+
+.pokedex {
+  padding: 10px;
+  width:100%;
+  position: absolute;
+  text-align: center;
+  
+}
+
+li {
+  list-style-type: none;
+  background-color: beige;
+  text-align:center;
+  border:3px solid #2B2B2B;
+  box-sizing:border-box;
+  float:left;
+  height:310px;
+  width:310px;
+  transition: transform .1s;
+  margin: 20px;
+  padding-top: 0%;
+}
+
+li:hover {
+  transform: scale(1.1);
+}
+
+.champ-recherche {
+  position: relative; 
+  display: inline-block;
+}
+
+.search {
+  text-align: center;
+}
+
+.pokeimage {
+  height: 50%;
+  width: 60%;
+}
+
+a{
+  color: #2B2B2B;
+  font-size: 200%;
+}
+
+h1{
+  font-size: 200%;
+}
+
+.searchtext{
+  border: 2px solid;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  color:#2B2B2B;
+  border-color: #2B2B2B;
+  outline: none;
+  background: none;
+}
+
+.searchtext:hover{
+  border-color: red;
+}
+
+.search:focus{
+  color:darkred;
+}
+
+.searchbutton{
+  border: 2px solid;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  color:#2B2B2B;
+  border-color: #2B2B2B;
+  outline: none;
+}
+
+.moreinfos{
+  margin: auto;
+  width: 50%;
+  margin-top: 3%;
+  display: flex;
+}
+
+.imgdetails{
+  background-color: beige;
+  border-radius: 40px;
+  border: 3px solid #2B2B2B;
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.caradetails{
+  background-color: beige;
+  border-radius: 40px;
+  border: 3px solid #2B2B2B;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 2%;
+  width: 30%;
+  height: 30%;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.pokeimagedetails{
+  height: 70%;
+  width: 70%;
+}
